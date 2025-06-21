@@ -30,10 +30,10 @@ function Modal(){
                 <input  className="inp" id="username" type="text" required />
                 <label htmlFor="email">EmailAddress:</label>
                 <input className="inp" id="email" type="email" required />
-                <label htmlFor="dob">Phone Number:</label>
-                <input className="inp" id="dob" type="text" required/>
-                <label htmlFor="phone">Date of Birth:</label>
-                <input className="inp" id="phone" type="date" required/>
+                <label htmlFor="phone">Phone Number:</label>
+                <input className="inp" id="phone" type="text"  />
+                <label htmlFor="dob">Date of Birth:</label>
+                <input className="inp" id="dob" type="date"/>
                 <button type="submit" className="submit-button">Submit</button>
                 </form>
                 
