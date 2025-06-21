@@ -1,0 +1,46 @@
+.modal{
+ background-color: rgba(
+    0, 0,0, 0.2);
+ position:fixed;
+ top:20px;
+ bottom: 20px;
+ left: 20px;
+ right: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ z-index: 100;
+ 
+
+}
+.modal-content{
+    width: 600px;
+    background-color: white;
+    padding: 40px 5px;
+    position:absolute;
+    z-index: 5;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.inp{
+    width: 450px;
+    padding: 10px;
+    border-radius: 6px;
+    border: lightgrey 1px solid;
+    margin: 10px;
+}
+
+.submit-button{
+    padding: 13px 40px;
+    border-radius: 5px;
+    background-color: #009aff;
+    border: none;
+    color: white;
+
+}
+form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
